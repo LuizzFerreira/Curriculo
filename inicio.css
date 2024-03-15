@@ -1,0 +1,155 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(Imagem\ -\ Fundo.jpg);
+}
+
+/*<nav>*/
+
+nav .foto1 img{
+border-radius: 50%;
+margin-left: 50%;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    margin-left: 35%;
+}
+
+   nav li{
+    margin-right: 100px;
+    }
+
+    nav ul{
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        padding: 5px;
+
+       }
+       
+   nav ul a p:hover{
+    color: black;
+    font-weight: bold;
+   }
+
+  .negrito p{
+    color: black;
+    font-weight: bold;
+    font-size: 150%;
+   }
+
+/*</nav>*/
+
+/*<main>*/
+main{
+    margin-top: 7%;
+}
+main .titulo1{
+    color: white;
+    margin-left: 10%;
+    margin-right: 50%;
+}
+
+main .titulo2{
+    color: rgb(158, 155, 155);
+    margin-left: 10%;
+    margin-right: 50%;
+}
+
+main .imgeu{
+    margin-top: -16%;
+    margin-left: 66%;
+}
+
+.blocoimg {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    justify-content: space-between;
+    margin-right: 7%;
+    margin-left: 42%;
+}
+.blocoimg img{
+    border-radius: 5%;
+}
+.cursosh1{
+    color: white;
+    margin-top: -17%;
+    margin-left: 7%;
+    text-shadow: 5px 5px 10px black;
+}
+.endereco{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.endereco h1 {
+    color: white;
+    text-align: left;
+    margin-top: -10%;
+}
+
+.endereco img {
+    border-radius: 5%;
+    margin-right: 10px;
+}
+.contatosh1{
+    color: white;
+    margin-top: -15%;
+    margin-left: 7%;
+}
+.contatosh2{
+    color: black;
+    margin-left: 7%;
+}
+
+.imgcurriculo{
+    margin-top: 14%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.imgcurriculo h2{
+    color: black;
+    text-decoration: none;
+}
+.imgcurriculo img{
+    border-radius: 10%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.titulo3{
+    color: white;
+    margin-left: 10%;
+    margin-right: 50%;
+    font-size: 130%;
+}
+.voltar{
+    list-style-type: none;
+    margin-top: -123%;
+}
+
+/*</main>*/
+
+/*<footer>*/
+
+footer{
+    margin-top: 30%;
+}
+footer .barra{
+    display: flex;
+    justify-content: center;
+}
+footer .barra a{
+    margin: 5%;
+}
+/*</footer>*/
+ 
